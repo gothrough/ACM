@@ -41,6 +41,5 @@ int main()
 	sort(ch,sizeof(ch)/sizeof(ch[0]));//sizeof(ch)/sizeof(ch[0])为二位数组的行数
 	for(i=0;i<n;i++)
 	printf("%c %c %c\n",ch[i][0],ch[i][1],ch[i][2]); 
-	
 	return 0;
 } 
